@@ -30,7 +30,7 @@ grViz("
       'SLF Demo'
 
       node [shape = box
-      fillcolor = MediumSlateBlue]
+      fillcolor = LightSalmon]
       'Interactive Interface'
       'Visualizations'
 
