@@ -19,11 +19,14 @@ node [shape = box
 'Chris Jones
 Lead Project Developer'
   
+'Yu Takeuchi
+Lead Policy Developer'
+
 'Payam Tabriz
 UI/UX Designer'
   
 'Vashek Petras
-Developer (Neural Networks)'
+Developer (Networks)'
   
 'Anna Petasova
 Developer (Spatial Steering'
@@ -53,14 +56,35 @@ Developer (Adaptive mesh)'
 
 # add edge statements
 'Ross Meentemeyer
-Director CGA' -> 'Chris Jones
-Lead Project Developer';
+Director CGA' -> {
+'Chris Jones
+Lead Project Developer'
+'Yu Takeuchi
+Lead Policy Developer'
+}
+
 'Chris Jones
 Lead Project Developer' -> {
 'Payam Tabriz
 UI/UX Designer'
 'Vashek Petras
-Developer (Neural Networks)'
+Developer (Networks)'
+'Anna Petasova
+Developer (Spatial Steering'
+      
+'Megan Skrip
+Science Communication'
+      
+'Kunwar Singh
+Developer (RS/ML)'
+}
+
+'Yu Takeuchi
+Lead Policy Developer' -> {
+'Payam Tabriz
+UI/UX Designer'
+'Vashek Petras
+Developer (Networks)'
 'Anna Petasova
 Developer (Spatial Steering'
       
@@ -76,12 +100,17 @@ Developer (RS/ML)' ->'Nick Kruskamp
 Developer (RS/ML)'
 
 'Vashek Petras
-Developer (Neural Networks)' -> {
+Developer (Networks)' -> {
 'Kellyn Montgomery
 UAV integration'
 'Umesh
 Developer (Adaptive mesh)'
 }
+
+'Anna Petasova
+Developer (Spatial Steering' ->
+'Umesh
+Developer (Adaptive mesh)'
 
 'Payam Tabriz
 UI/UX Designer' ->
