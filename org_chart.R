@@ -2,7 +2,7 @@ library(DiagrammeR)
 
 grViz("
       
-digraph boxes_and_circles {
+digraph APHIS_ORG {
 
 # add node statements
 node [shape = box
